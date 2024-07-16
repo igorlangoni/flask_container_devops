@@ -14,3 +14,5 @@ def jerry_maguire():
 def godfather():
     return '<p>Look at what they did to my boy...</p>'
 
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000, debug=True)
